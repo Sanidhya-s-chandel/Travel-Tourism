@@ -107,3 +107,18 @@ html, body {
 .smooth2{
     background-image: linear-gradient(to bottom, transparent 50%, black);
 }
+
+.viedo-end{
+    left: 30%;
+    top: -10%;
+}
+
+.light2{
+    filter: brightness(45%);
+    transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.5s;
+}
+
+.light2:hover{
+    filter: brightness(100%);
+    scale: 1.1;
+}
