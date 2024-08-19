@@ -12,9 +12,17 @@
     <div class="main">
         <div class="top w-full">
             <div class="overlays">
-                <div class="nav h-20 flex items-center justify-between py-8 px-4  w-[80%] mx-auto">
+                <div class="nav-responsive absolute z-10 top-[-100%] w-full text-left bg-black p-2 text-white">
+                    <h3 class="mt-4 ml-4 font-semibold">MAIN</h3>
+                    <h3 class="mt-4 ml-4 font-semibold">ABOUT US</h3>
+                    <h3 class="mt-4 ml-4 font-semibold">TOURS</h3>
+                    <h3 class="mt-4 ml-4 font-semibold">GALLERY</h3>
+                    <h3 class="mt-4 ml-4 font-semibold">REVIEWS</h3>
+                    <h3 class="mt-4 ml-4 pb-4 font-semibold">CONTACTS</h3>
+                </div>
+                <div class="nav relative h-20 flex items-center justify-between py-8 max-sm:px-0 px-4 w-[80%] mx-auto">
                     <div class="icon h-full w-[200px] flex items-center">
-                        <h1 class="text-white text-4xl font-semibold">Flash</h1>
+                        <h2 class="text-white text-4xl font-semibold">Flash</h2>
                     </div>
                     <div class="center flex items-center mr-32 gap-8 text-lg text-white font-semibold">
                         <h1 class="cursor-pointer">MAIN</h1>
@@ -24,7 +32,8 @@
                         <h1 class="cursor-pointer">REVIEWS</h1>
                         <h1 class="cursor-pointer">CONTACTS</h1>
                     </div>
-                    <i class="ri-search-line text-3xl flex items-center text-white cursor-pointer"></i>
+                    <i class="ri-search-line search text-3xl flex items-center text-white cursor-pointer"></i>
+                    <i class="ri-menu-line menu text-3xl z-20 text-white hidden"></i>
                 </div>
                 <div class="top-middle mt-36 max-sm:mt-28 flex items-center gap-56">
                     <div class="dets w-full ml-44 max-sm:m-12">
@@ -43,7 +52,7 @@
                         <h1 class="text-2xl font-semibold text-white/60">06</h1>
                     </div>
                 </div>
-                <div class="top-bottom text-white mt-44 max-sm:mt-32 w-full max-sm:p-8">
+                <div class="top-bottom text-white mt-44 max-sm:mt-32 w-full">
                     <div class="binner w-[85%] max-sm:text-[13px] mx-auto max-sm:flex-col max-sm:items-start flex items-center justify-between">
                         <div class="flex gap-4 w-[25%] max-sm:w-full mb-4 max-sm:mb-12">
                             <div class="h-16 max-sm:h-12">
@@ -116,23 +125,23 @@
             <div class="overlays2 h-full w-full relative">
                 <div class="h-[70px] w-full smooth"></div>
                 <div class="flex">
-                    <div class="heading-end w-[60%] p-40">
-                        <h1 class="text-5xl mt-2 uppercase tracking-wide font-semibold text-[#54DADA]">discover the</h1>
-                        <h1 class="text-5xl mt-2 uppercase tracking-wide font-semibold text-[#54DADA]">world in a</h1>
-                        <h1 class="text-5xl mt-2 uppercase tracking-wide font-semibold text-[#54DADA]">new way</h1>
-                        <div class="mt-12 text-white text-3xl flex items-center gap-2">
-                            <i class="ri-play-circle-line text-[75px]"></i>
+                    <div class="heading-end w-[60%] max-sm:w-full p-40 max-sm:p-12">            
+                        <h1 class="text-5xl mt-2 max-sm:m-0 max-sm:text-xl uppercase tracking-wide font-semibold text-[#54DADA]">discover the</h1>
+                        <h1 class="text-5xl mt-2 max-sm:m-0 max-sm:text-xl uppercase tracking-wide font-semibold text-[#54DADA]">world in a</h1>
+                        <h1 class="text-5xl mt-2 max-sm:m-0 max-sm:text-xl uppercase tracking-wide font-semibold text-[#54DADA]">new way</h1>
+                        <div class="mt-12 text-white max-sm:text-xs text-3xl flex items-center gap-2">
+                            <i class="ri-play-circle-line text-[75px] max-sm:text-[45px]"></i>
                             <h1>Watch the Viedo</h1>
                         </div>
-                        <p class="mt-12 text-white/60 text-sm capitalize w-[64%]"> << Have you ever heard the avalance roar in the mountains ? just after the avalance roars, and there is absolute silence. you stop understanding where you are - that's 100% just very quite</p>
+                        <p class="mt-12 max-sm:text-xs max-sm:text-left text-white/60 text-sm capitalize w-[64%]"> << Have you ever heard the avalance roar in the mountains ? just after the avalance roars, and there is absolute silence. you stop understanding where you are - that's 100% just very quite</p>
                     </div>
-                    <div class="viedo-end absolute p-40 flex gap-8">
-                        <div class="flex flex-col mt-auto items-center gap-8">
+                    <div class="viedo-end absolute p-40 max-sm:p-2 max-sm:top-[20%] max-sm:left-[60%] flex gap-8">
+                        <div class="vd1 flex flex-col max-sm:gap-2 max-sm:hidden mt-auto items-center gap-8">
                             <div class="h-[200px] light2">
                                 <video src="" poster="https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_1280.jpg" controls class="h-full w-full"></video>
                             </div>
                         </div>
-                        <div class="flex flex-col mt-auto items-center gap-8">
+                        <div class="vd2 flex flex-col max-sm:gap-2 max-sm:hidden mt-auto items-center gap-8">
                             <div class="h-[200px] light2">
                                 <video src="" poster="https://img.traveltriangle.com/blog/wp-content/uploads/2018/09/mt.-cook-cover.jpg" controls class="h-full w-full"></video>
                             </div>
@@ -140,14 +149,14 @@
                                 <video src="" poster="https://i0.wp.com/eos.org/wp-content/uploads/2022/08/carezza-lake-italy.jpg?fit=1200%2C675&ssl=1" controls class="h-full w-full"></video>
                             </div>
                         </div>
-                        <div class="flex flex-col items-center gap-8">
-                            <div class="h-[200px] light2">
+                        <div class="vd3 flex flex-col max-sm:gap-12 items-center gap-8">
+                            <div class="h-[200px] max-sm:h-[80px] light2">
                                 <video src="" poster="https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg" controls class="h-full w-full"></video>
                             </div>
-                            <div class="h-[200px] light2">
+                            <div class="h-[200px] max-sm:h-[80px] light2">
                                 <video src="" poster="https://trekebc.com/wp-content/uploads/2021/12/Difference-between-hill-and-mountain.jpg" controls class="h-full w-full"></video>
                             </div>
-                            <div class="h-[200px] light2">
+                            <div class="h-[200px] max-sm:h-[80px] light2">
                                 <video src="" poster="https://plus.unsplash.com/premium_photo-1661883809211-eb59f508b3d9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2F0ZXJmYWxsfGVufDB8fDB8fHww" controls class="h-full w-full"></video>
                             </div>
                         </div>

@@ -122,3 +122,21 @@ html, body {
     filter: brightness(100%);
     scale: 1.1;
 }
+
+.nav-responsive{
+    transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 1s;
+}
+
+@media (max-width:640px) {
+    .nav h1{
+        display: none;
+    }
+
+    .nav .search{
+        display: none;
+    }
+
+    .nav .menu{
+        display: initial;
+    }
+}
